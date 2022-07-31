@@ -1,0 +1,24 @@
+{
+  "name": "kib_task",
+  "version": "1.0.0",
+  "description": "this app just to genrate reports for el-jzera systems as a micro service",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon server.js"
+  },
+  "author": "mahmood esmail",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "connect-multiparty": "^2.2.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "cors": "^2.8.5",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.18"
+  }
+}
